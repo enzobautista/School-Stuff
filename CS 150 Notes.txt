@@ -1,0 +1,16 @@
+Assembly and Machine Language
+  Hexadecimal
+  0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+  10h (hexadecimal)=16
+  hexadecimal notation: 32A ADD (F1B) (221)
+  1011 1111 ->8 bits
+  1011 1111-> BF hex -> 8 bits
+  count in steps of four from RIGHT to LEFT
+  1BFA3300H->32 bits
+  Two famous word lengths:
+    -32 bit: pentium
+    -64 bit: i3, i5, i7
+  Mnemonics
+    -ADD: 8 bits
+  Operands
+    -12 bits, 12 bits
