@@ -1,0 +1,11 @@
+<h1>Edit form for <%= @user.first_name %> </h1>
+<% simple_form_for(@user) do |f| %>
+<%= f.input :email %>
+<%= f.input :first_name %>
+<%= f.input :last_name %>
+<%= f.input :encrypted_password %>
+<%= f.input :birthday%>
+<%= f.input :gender %>
+<hr>
+<%= f.submit :save %>
+<% end %>

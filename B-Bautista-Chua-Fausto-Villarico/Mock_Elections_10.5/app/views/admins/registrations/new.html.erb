@@ -1,0 +1,29 @@
+<section id="belowNav" class="u_log">
+  <div class="container marg-cont">
+  <div class="col-md-4"></div>
+    <div class="card col-md-4 log_form">
+      <h2>Sign up an Admin</h2><hr>
+
+      <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= f.error_notification %>
+        <div class="form-inputs">
+          <%= f.input :email, required: true, autofocus: true %>
+          <%= f.input :password, required: true, hint: ("#{@minimum_password_length} char min" if @minimum_password_length) %>
+          <%= f.input :password_confirmation, required: true %>
+          <%= f.input :first_name%>
+          <%= f.input :last_name%>
+          <%= f.input :birthday, start_year: 1910%>
+          <%= f.label :gender, "Gender" %>
+          <%= f.select :gender, ["Male", "Female", "Other"], include_blank: true  %>
+        </div>
+
+        <div class="form-actions">
+          <%= button_to(type:'submit',class:"btn-default")do%>  
+            <span class="glyphicon glyphicon-send"></span> Sign up
+          <%end%>
+        </div>
+      <% end %>
+      <hr>
+      <%= render "admins/shared/links" %>
+    </div>
+  </div>

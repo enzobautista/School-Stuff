@@ -1,0 +1,561 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import url(http://fonts.googleapis.com/css?family=Roboto);
+ @import url(http://fonts.googleapis.com/css?family=Oswald);
+ @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+ body {
+     line-height: 1.6em;
+     width: 100%;
+     max-width: 100%;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ html, body {
+     max-width: 100%;
+     overflow-x: hidden; /*change to x only */
+     color: rgb(0, 0, 0);
+ }
+ #title-text{
+    margin-top: 1.67em;
+    z-index:11;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 9.5em;
+ }
+ .title-b{z-index:11;}
+ .up{
+    z-index: 11;
+ }
+ #index_head, #index_start, #index_jum,#index_pos {
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     min-height: 700px;
+ }
+#index_jum{
+ background-color: #607d8b;
+ background-image: url(/assets/bg.PNG);
+ background-attachment: fixed;
+ position:relative;
+}
+ #index_head{
+   background-color: rgb(235, 239, 242);
+   background-attachment: fixed;
+   position:relative;
+ }
+ #index_pos{
+   background-color: #4CAF50;
+   position:relative;
+   overflow-x: hidden;
+ }
+ #index_start {
+    padding-top: 5em;
+    background-color: #4CAF50;
+    position:relative;
+    background-attachment: fixed;
+}
+ .brig{
+    float:right;
+ }
+ .graph{
+    padding:0;
+    width: 90%;
+    float:left;
+    border-bottom:1px solid #888;
+    /*overflow:hidden; overflow-y:scroll;
+    height:120px; width:100%;*/
+ }
+ .graph li{
+    position:relative;
+    list-style: none;
+    border-top: 1px solid #888;
+    clear:both;
+ }
+ .cans{
+    display: block;
+    position:relative;
+    color:white;
+    padding:.7em;
+    background:#4CAF50;
+    float: left;
+ }
+ .cans1{
+    display: block;
+    position:relative;
+    color:#4CAF50;
+    padding:.7em;
+    background:transparent;
+    float: left;
+ }
+ .overlay0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.44);
+    z-index: 10;
+}
+ .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 10;
+}
+
+.child{
+  margin-top: 5px;
+   height: 400px;
+   width: auto;
+   overflow-y: scroll;
+   overflow-x:hidden;
+}
+ .card1{
+     background-color:transparent;
+     z-index:11;
+     background-color:#F9F9F9;
+      -webkit-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      -moz-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      min-height:420px;
+      margin-bottom: 32px;
+ }
+ #about1{
+ 
+    z-index:11;
+}
+ .body-card1 {
+    padding: 5%;
+    min-height: 100px;
+    text-align: justify;
+    text-justify:interword;
+}
+ .card, .cardx{
+     background-color:transparent;
+     z-index:11;
+     background-color:#F9F9F9;
+      -webkit-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      -moz-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      min-height: 536px;
+ }
+ .pos-link{
+  color:#212121;
+ }
+ .body-card {
+     background-color:transparent;
+     margin: .5em;
+     padding: 5%;
+     text-align: justify;
+     text-justify:interword;
+     overflow: hidden;
+     min-height: 220px;
+     color: #212121;
+ }
+ .h-card{
+
+     padding: 1%;
+     text-align: justify;
+     text-justify:interword;
+     background-color:#4CAF50;
+     width: auto;
+     min-height: 50px;
+     color: white;
+     border-bottom: 1px solid #EDECEC;
+ }
+ .topc{
+  margin-top: 5.7em;
+  z-index:11;
+ }
+ .results{
+  min-height:400;
+ }
+.btn-ghost {
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: transparent;
+    padding: 15px 35px 15px 35px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all .2s linear; /* for fading effect */
+}
+.fade:hover {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+ }
+
+.fade {
+  opacity: 0.5;
+}
+.cd-top {
+  z-index:11;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(90,90,90,0.8) url(/assets/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .3;
+}
+.no-touch .cd-top:hover {
+
+  opacity: .7;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+#news_sp {
+
+  color: white;
+  position: relative;
+  font-size: 1.7em;
+  margin-left: 38%;
+}
+.wodryRX{color:white;
+margin-left:20px;
+font-size: 1.7em;
+font-family: 'Slabo 27px';
+}
+/* white nav for other pages*/
+ .navbar1 {
+  background-color: white;
+  background: white;
+  border: none;
+  color: #4CAF50;
+  z-index: 100;
+  margin-bottom: 0;
+  border-radius: 0;
+ }
+.navbar-default1 .navbar-brand {
+  color: #4CAF50;
+  font-weight: 500;
+  background-color:transparent;
+}
+.navbar-default1 .navbar-brand:hover {
+  color: white;
+}
+.navbar-default1 .navbar-nav > li > a {
+  color: #4CAF50;
+  font-weight: 500;
+  font-size: 1em;
+}
+.navbar-default1 .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.navbar-default1 .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a:focus {
+  color: #4CAF50;
+  text-decoration: none;
+}
+/* --------------------------------*/
+ .navbar {
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  margin-bottom: 0;
+  border-radius: 0;
+ }
+ /* Adjusting the brand and link colors */
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: 500;
+  background-color:transparent;
+}
+.navbar-default .navbar-brand:hover {
+  background-color: rgba(158,158,158,.2);
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active {
+  background-color: rgba(158,158,158,.2);
+  color: white;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+/* opaque class which will be attached on scroll */
+
+.navbar.opaque {
+  background-color: white;
+  background: white;
+  transition: background-color 1s ease 0s; /* Transition effect to make it fade in (optional) */
+  box-shadow: 0px 0px 4px #969696;
+
+}
+.navbar.opaque .navbar-brand {
+  color: #4CAF50;
+  transition: color 1s ease 0s;
+}
+.navbar.opaque .navbar-nav > li > a {
+  color: #4CAF50;
+  transition: color 1s ease 0s;
+}
+.navbar.opaque .navbar-nav > li > a:active {
+  text-decoration: underline;}
+
+ .myButton {
+  background-color:#4CAF50;
+
+  border:0px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Roboto';
+  font-size:22px;
+  padding:.5em 1.4em;
+  text-decoration:none;
+  margin-top: 25px;
+}
+.myButton:hover {
+  opacity: 0.82;
+}
+.myButton:active{
+  outline:none;
+}
+.myButton:focus{
+  outline:none;
+}
+
+/* Cindy CSS starts here*/
+.navbarFont{
+  font-family: 'Roboto';
+}
+#belowNav{
+  padding-top: 50px;
+  background-size: cover;
+  min-height: 700px;
+}
+.tableFonts{
+  font-family: 'Slabo 27px';
+  font-size: 18px;
+}
+.h-card2{
+     padding: 1%;
+     text-align: justify;
+     text-justify:interword;
+     background-color:#4CAF50;
+     width: auto;
+     min-height: 83px;
+     color: white;
+     border-bottom: 1px solid #EDECEC;
+ }
+  .body-card2 {
+     background-color:transparent;
+     margin: 1em;
+     padding: 5%;
+     text-align: justify;
+     text-justify:interword;
+     overflow: hidden;
+     min-height: 250px;
+     color: #212121;
+     height: 400px;
+      overflow-y: auto;
+      overflow-x:hidden;
+ }
+ .btn-pos{
+      background-color:#e2e2e2;
+      display:inline-block;
+      cursor:pointer;
+      color:black;
+      font-family:'Roboto';
+      font-size:14px;
+      padding:.1em .8em;
+      width:100%;
+      text-decoration:none;
+      margin-top: 25px;
+ }
+ .btn-pos:hover {
+  opacity: 0.82;
+}
+.about_title{
+  color:white;
+}
+.u_log{
+  background-color:#4CAF50;
+}
+.marg-cont{
+  margin-top: 1.75em;
+}
+.marg-cont1{
+  padding-top: 100px;
+}
+.log_form{
+  padding:1.5%;
+}
+.rem{
+  padding-left: 50px;
+}
+.title-v{
+  font-size:3.2em;
+  color:white;
+}
+.v-text{
+  color:white;
+  font-size:1.75em;
+}
+.v-pos{
+  color:white;
+}
+.marg-row{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.v-count{
+  float:right;
+}
+#card-overlay{
+  background-color:rgba(0,0,0,.75);
+               text-align:center;
+               opacity:0;
+
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;
+
+}
+
+#card-overlay:hover #card-overlay {
+               opacity:1;}
+.log-in-succ{
+  background-color: transparent !important;
+}
+.simple_form {
+  div.input {
+    margin-bottom: 10px;
+    clear: both;
+    /* Required for Webkit, but not for Gecko */
+  }
+  label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin: 2px 10px;
+  }
+}
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+
+
+.overlay-eff{
+  margin-left: 5%;
+ width:90%;
+ height:93.1%;
+display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.overlay-eff div {
+    position:relative;
+    display:inline-block;
+    top:50%;
+    margin:-50% 5px 0 0;
+}
+ul{list-style: none;}
+.card1:hover .overlay-eff {
+    display:block;
+    background-color:black;
+    opacity:0.82;
+}
+.chart-pos {
+ padding-left: 5.5%;
+ width:90%;
+ height:100%;
+display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:white;
+
+}
+.chart-t{
+  color:white;
+}
+ .card-show{
+    margin-top: 30px;
+     background-color:transparent;
+     z-index:11;
+     background-color:#F9F9F9;
+      -webkit-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      -moz-box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      box-shadow: 1px 2px 5px 1px rgba(92,92,92,1);
+      height:536px;
+ }
+.scroll{
+    overflow-y: scroll;
+    height: 370px;
+}

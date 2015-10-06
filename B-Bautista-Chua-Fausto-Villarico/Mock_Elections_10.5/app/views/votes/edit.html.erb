@@ -1,0 +1,6 @@
+<h1>Edit Vote</h1>
+<%= simple_form_for([@candidate, @vote]) do |f| %>
+<%= f.input :comments%>
+<hr>
+<%= f.submit :save %>
+<% end %>

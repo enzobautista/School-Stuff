@@ -1,0 +1,40 @@
+READ ME! 
+
+admin email is:admin@admin.admin
+admin password is:adminadmin
+
+sign_up as admin button is removed but still accessible via admins/sign_up (in case there is a need to add an admin)
+
+this webapp uses paperclip->imagemagick might need to be installed
+
+this is a project for MIS21 (Rails 2015)
+
+by Enzo Bautista, Cindy Chua, Jakey Fausto, and Vaughn Villarico of MIS21 section B under sir Happy.
+
+June 18,2015
+-------------------------------------------------------------------
+sources:
+
+1 "Back to Top." CodyHouse Back to Top Comments. 24 May 2014. Web. 18 July 2015. <http://codyhouse.co/gem/back-to-top/>.
+
+2 "Pure CSS and JavaScript News Ticker." CodePen. Web. 18 July 2015. <http://codepen.io/gabrieleromanato/pen/IoDBy>.
+
+3 "Wodry.js." Wodry.js. 2014. Web. 18 July 2015. <http://daynin.github.io/wodry/#about>.
+
+4 "Unsplash | Free High Resolution Photos." Unsplash. Web. 18 July 2015. <https://unsplash.com/>.
+
+5 "Change Opacity of Bootstrap Nav on Scrolling." Change Opacity of Bootstrap Nav on Scrolling. 4 Mar. 2015. Web. 18 July 2015. <http://neoelemento.com/change-opacity-of-bootstrap-nav-on-scrolling>.
+
+6 "Creating a Dropdown Menu with HTML, CSS & JQuery (Demo) | Inspirational Pixels." Creating a Dropdown Menu with HTML, CSS & JQuery (Demo) | Inspirational Pixels. Web. 18 July 2015. <http://demos.inspirationalpixels.com/dropdown-with-html-css-demo/>.
+
+7 "Dev Shed Forums." Dev Shed Forums RSS. Web. 18 July 2015. <http://forums.devshed.com/javascript-development-115/scroll-anchor-div-932612.html>.
+
+8 "Chart.js Documentation." Chart.js. Web. 18 July 2015. <http://www.chartjs.org/docs/#getting-started-include-chart.js>.
+
+9 "Plataformatec/devise." GitHub. Web. 18 July 2015. <https://github.com/plataformatec/devise>.
+
+10 "Components." · Bootstrap. Web. 18 July 2015. <http://getbootstrap.com/components/>.
+
+11 "Code Snippets | CSS-Tricks." CSS-Tricks. Web. 18 July 2015. <https://css-tricks.com/snippets/>.
+
+12 "Google Images." Google Images. Web. 18 July 2015. <http://www.google.com/imgres?imgurl=http://www.shanalogic.com/wordpress/wp-content/uploads2/2015/03/anigif_enhanced-buzz-16494-1377022542-23_preview.gif&imgrefurl=http://www.shanalogic.com/wordpress/your-cute-for-the-day-corgi->. 

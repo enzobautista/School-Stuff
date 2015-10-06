@@ -1,0 +1,23 @@
+<section id="belowNav">
+  <div class="container">
+      <h1> <%=@candidate.first_name %> <%=@candidate.last_name %> </h1>
+      <h2> <%= @candidate.slogan %> </h2>
+
+      <table class="table table-bordered table-striped">
+        <tr>
+          <th>Votes: <%= @candidate.votes.count %></th>
+        </tr>
+        <td>
+        Male:  <%= @malecounter %> <br>
+        Female:  <%= @femalecounter %>  <br>
+        Other:  <%= @othercounter %> <br>
+        None:  <%= @nocounter %> <br></td>
+        <tr><th>Comments</th></tr>
+
+        <% @candidate.votes.each do |candidate| %>
+        <tr>
+        <td><%= candidate.comments %></td>
+        <% end %>
+        </tr>
+  </div>
+</section>

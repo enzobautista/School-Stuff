@@ -1,0 +1,26 @@
+<section id="belowNav">
+  <div class="container">
+    <h1>All Candidates</h1>
+      <%= link_to "Add Candidate", new_candidate_path, class: "btn btn-xs btn-default" %> <br> <br>
+
+      <table class="table table-bordered table-striped">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Slogan</th>
+      </tr>
+      <%@candidates.each do |candidate| %>
+        <tr>
+          <td> <%= candidate.first_name %> </td>
+          <td> <%= candidate.last_name %> </td>
+          <td> <%= candidate.slogan %> </td>
+          <td>
+            <%= link_to "Show", candidate_path(candidate.id), class: "btn btn-xs btn-default" %>
+            <%= link_to "Edit", edit_candidate_path(candidate.id), class: "btn btn-xs btn-default" %>
+            <%= link_to "Delete", candidate_path(candidate.id), method: :delete, data:{confirm: "Are you sure?"}, class: "btn btn-xs btn-default" %>
+          </td>
+        </tr>
+      <% end %>
+      </table>
+  </div>
+</section>

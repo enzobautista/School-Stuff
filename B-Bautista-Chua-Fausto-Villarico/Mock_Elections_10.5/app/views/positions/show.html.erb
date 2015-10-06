@@ -1,0 +1,46 @@
+<section id="belowNav" class="u_log"> 
+  <div class="container card-show">
+      <h1> <%=@position.name %> Candidates</h1><h3><%= link_to positions_path, :class=>'btn btn-default' do%>  
+              <span class="glyphicon glyphicon-th"></span> Back to Listing
+            <%end%></h3>
+      <% if admin_signed_in? %>
+      <%= link_to "Add Candidate", new_candidate_path, class: "btn btn-xs btn-default" %> 
+      <%= link_to "Back to Listing", positions_path, class: "btn btn-xs btn-default" %>
+      <br> <br>
+      <% end %>
+      <div class="scroll">
+      <table class="table table-bordered table-striped">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Slogan</th>
+        <th>Votes</th>
+        <th>Avatar</th>
+        <th>Actions</th>
+      </tr>
+
+      <%@position.candidates.each do |candidate| %>
+        <tr>
+          <td> <%= candidate.first_name %> </td>
+          <td> <%= candidate.last_name %> </td>
+          <td> <%= candidate.slogan %> </td>
+          <td> <%= candidate.votes.count %> </td>
+          <td> <%= image_tag candidate.avatar.url(:thumb) %> </td>
+          <td>
+            <%= link_to "Show", candidate_path(candidate.id), class: "btn btn-xs btn-default" %>
+            <% if user_signed_in?%>
+              <% if @votecounter == 0 %>
+              <%= link_to "Vote!", new_candidate_vote_path(candidate.id), class: "btn btn-xs btn-default" %>
+              <% end %>
+            <% end %>
+            <% if admin_signed_in? %>
+            <%= link_to "Edit", edit_candidate_path(candidate.id), class: "btn btn-xs btn-default" %>
+            <%= link_to "Delete", candidate_path(candidate.id), method: :delete, data:{confirm: "Are you sure?"}, class: "btn btn-xs btn-default" %>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+      </table>
+      </div>
+    </div>
+  </section>

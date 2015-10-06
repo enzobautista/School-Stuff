@@ -1,0 +1,31 @@
+<section id="belowNav" class="u_log">
+  <div class="container marg-cont">
+    <div class="card col-md-4 log_form">
+      <h3><%=current_user.first_name%> <%=current_user.last_name%></h3><hr>
+      Birthdate: <%=current_user.birthday%><br>
+      Gender: <%=current_user.gender%><br>
+      Email: <%=current_user.email%><br>
+      Joined: <%=current_user.created_at%><br>
+      <%= link_to 'Edit profile', edit_user_registration_path %>
+      <hr>
+      <center><h4>Votes Cast</h4></center>
+      <table class="table table-bordered table-striped">
+        <tr>
+          <th>Candidate Name</th>
+          <th>Comment</th>
+          <th>Actions</th>
+        </tr>
+        <% @user.votes.each do |vote| %>
+        <tr>
+          <td><%= vote.candidate.first_name %></td>
+          <td><%=vote.comments  %></td>
+          <td>
+            <%= link_to "Edit", edit_candidate_vote_path(vote.candidate.id, vote.id), class: "btn btn-xs btn-default" %>
+            <%= link_to "Unvote", candidate_vote_path(vote.candidate.id, vote.id), method: :delete, data:{confirm: "Are you sure?"}, class: "btn btn-xs btn-default" %>
+          </td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</section>

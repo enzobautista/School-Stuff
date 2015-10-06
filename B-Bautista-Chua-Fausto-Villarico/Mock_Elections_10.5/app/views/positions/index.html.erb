@@ -1,0 +1,109 @@
+<section id="index_pos">
+  <div class="container marg-cont1">
+    <center><span class="title-v">Candidate Listing</span></center>
+    <br>
+    <% if admin_signed_in?%>
+          <%= link_to "Add Position", new_position_path,class: "btn btn-xs btn-default" %>
+    <% end %>
+    <%@positions.each do |position| %>
+    <!--ROW-->
+    <center><span class="v-text">------------<%= position.name%>------------</span></center><center><% if user_signed_in? %>
+  <center>
+        <%= link_to position_path(position.id), :class=>'btn btn-default' do%>  
+              <span class="glyphicon glyphicon-thumbs-up"></span> Vote a <%=position.name%>
+        <%end%>
+  </center>
+<%end%><% if admin_signed_in?%><%=link_to "Edit Position", edit_position_path(position.id),class: "btn btn-xs btn-default"%>  <%= link_to "Add Candidate", new_candidate_path, class: "btn btn-xs btn-default" %><%end%></center><br>
+    <div class="row marg-row">
+
+                  <!--CARD-->
+                    <% position.candidates.each do |c| %>
+                    <!-- THIS SEARCHES FOR EACH CANDIDATE'S GENDER VOTE BREAKDOWN-->
+                    <%malecounter = 0%>
+                    <%femalecounter = 0%>
+                    <%othercounter = 0%>
+                    <% nocounter = 0%>
+                    <%c.votes.each do |x|%>
+                      <%if x.user.gender == "Male"%>
+                        <%malecounter += 1%>
+                      <%elsif x.user.gender == "Female"%>
+                        <%femalecounter += 1%>
+                      <%elsif x.user.gender =="Other"%>
+                        <%othercounter +=1%>
+                      <%else x.user.gender == "" || x.user.gender == nil%>
+                       <%nocounter += 1%>
+                      <%end%>
+                    <%end%>
+                    <!-- -->
+                      <div class="col-xs-3">
+                        <% if admin_signed_in?%><%=link_to "Edit Candidate", edit_candidate_path(c.id),class: "btn btn-xs btn-default edit-can"%><%end%>
+                        <div class="card1">
+                        <%= image_tag c.avatar.url(:medium), :class=>"img-responsive"%>
+                        <ul>
+                            <li>
+                              <div class="overlay-eff">
+                                <div class="chart-pos">
+                                  <ul class="graph">
+                                  Voter Statistics
+                                      <li>
+                                        <span class="cans" style="width:<%=(((malecounter.to_f)/(c.votes.count).to_f)*100-5)%>%">
+                                        Male
+                                        </span>
+                                        <span class="total chart-t">
+                                        <%= malecounter%>
+                                        </span>
+                                        </li>
+                                        <li>
+                                        <span class="cans" style="width:<%=((femalecounter.to_f/c.votes.count.to_f)*100-5)%>%">
+                                        Female
+                                        </span>
+                                        <span class="total chart-t">
+                                        <%= femalecounter%>
+                                        </span>
+                                        </li>
+                                          <li>
+                                        <span class="cans" style="width:<%=((othercounter.to_f/c.votes.count.to_f)*100-5)%>%">
+                                        Other
+                                        </span>
+                                        <span class="total chart-t">
+                                        <%= othercounter%>
+                                        </span>
+                                        </li>
+                                  </ul>
+                                </div>
+
+                              </div>
+                            </li>
+                        </ul>
+
+                          <div class="body-card1">
+                            <h4>
+                            <%=c.first_name%> <%= c.last_name%> <span class="v-count">Votes: <%= c.votes.count%></span> <br>
+                            </h4>
+
+                            <p>
+                            <%= c.slogan%>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    <%end%>
+                  <!--CARD-->
+    </div>
+    <!--ROW-->
+    <%end%>
+    <% if admin_signed_in?%>
+          <%= link_to "Add Position", new_position_path,class: "btn btn-xs btn-default" %>
+    <% end %>
+    <br>
+  </div>
+</section>
+<a href="#0" class="cd-top">Top</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/modernizr.js"></script> <!-- Modernizr -->
+<script src="assets/jquery.easing.min.js"></script>
+<script src="assets/wodry.min.js"></script>
+<script src="assets/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="assets/main.js"></script>

@@ -1,0 +1,14 @@
+<section id="belowNav">
+  <div class="container">
+    <h1>Edit new candidate</h1>
+    <%= simple_form_for(@candidate) do |f| %>
+    <%= f.input :first_name %>
+    <%= f.input :last_name %>
+    <%= f.input :slogan%>
+    <%= f.association :position%>
+  	<%= f.input :avatar, as: :file %>
+    <hr>
+    <%= f.submit :save %>
+    <% end %>
+  </div>
+</section>

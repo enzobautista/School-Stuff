@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+<link href="stylesheets/wodry.css" rel="stylesheet"></link>
+</head>
+<section id="index_jum" class="row" data-autoheight="true">
+  <div class="overlay0"></div>
+  <div class="up col-xs-12">
+    <center><h1 id="title-text"><img src="assets/electionsystem.png" height="200px"/></h1></center>
+      <!--<span class="wodryRX">word1|word2|word3</span>-->
+
+        <!--<span id="news_sp">Latest News</span>-->
+
+      <center>
+       <span class="wodryRX">
+
+          <%@positions.each do |position| %>
+
+           <% position.candidates.each do |c| %>
+                <%= c.first_name%> <%= c.last_name%> has <%= c.votes.count%>
+                <%if c.votes.count==1%>
+                  vote
+                <%else%>
+                  votes
+                <%end%> |
+           <%end%>
+          <%end%>
+         Click see more to see the breakdown!
+        </span> <br>
+        <button type="button" href="#index_head" class="page-scroll myButton ">See More</button></center>
+      </center>
+  </div>
+</section><!--end hero-->
+
+<section id="index_head">
+  <div class="container">
+    <div class="overlay1"></div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-3 topc">
+      <div class="results card">
+          <div class="h-card2">
+          <center><h1>Positions</h1></center>
+          </div>
+          <div class="body-card2">
+          <center>----Breakdown per position----</center>
+          <%@positions.each do |position| %>
+          <a href="javascript:scroll_dipper('<%=position.id%>');"><div class="btn-pos"><%=position.name %></div></a><br>
+          <%end%>
+          <hr>
+          <% if user_signed_in? %>
+            <center><%= link_to positions_path, :class=>'btn btn-default' do%>  
+              <span class="glyphicon glyphicon-thumbs-up"></span> Vote!
+            <%end%></center>
+          <% elsif admin_signed_in? %>
+            <%= link_to positions_path, :class=>'btn btn-default' do%>  
+              <span class="glyphicon glyphicon-th-list"></span> Positions Listing
+            <%end%>
+          <% else%>
+            <center>-----------Log in to vote!-----------</center><br>
+            <center><%= link_to new_user_session_path, :class => 'btn btn-default' do %>
+              <span class="glyphicon glyphicon-log-in"></span> Log in
+            <%end%></center><br>
+            <center>----Not a member? Sign up!----</center><br>
+            <center><%= link_to new_user_registration_path, :class => 'btn btn-default' do %>
+              <span class="glyphicon glyphicon-log-in"></span> Sign up
+            <%end%></center><br>
+          <%end%>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-7 topc">
+      <div class="results card">
+        <div class="h-card">
+        <center><h1>Breakdown</h1></center>
+        </div>
+        <div class="child" id="inset_slide">
+          <%@positions.each do |position| %>
+
+            <div class="body-card">
+            <%total=0%>
+            <%position.candidates.each do |f| %>
+              <%total+=f.votes.count%>
+            <%end%>
+            <span id="<%=position.id%>">
+            <%=position.name%></span> <span style="float:right">total votes: <%=total%></span>
+            <br>
+                <ul class="graph">
+                    <% position.candidates.each do |c| %>
+                      <%if c.votes.count!=0%>
+                        <li>
+                          <span class="cans" style="width:<%=(((c.votes.count.to_f/total.to_f).to_f)*100-5)%>%">
+                          <%= c.first_name%> <%= c.last_name%>
+                          </span>
+                          <span class="total">
+                          <%= c.votes.count%>
+                          </span>
+                        </li>
+                      <%else%>
+                        <li>
+                          <span class="cans1" style="width:<%=(((c.votes.count.to_f/total.to_f).to_f)*100-5)%>%">
+                          <%= c.first_name%> <%= c.last_name%>
+                          </span>
+                          <span class="total">
+                          <%= c.votes.count%>
+                          </span>
+                        </li>
+                      <%end%>
+                    <%end %>
+
+                </ul>
+            </div>
+          <%end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <section id="index_start" class="row" data-autoheight="true">
+    <div class="overlay1"></div>
+    <div id="about1" class="col-xs-12 " >
+    <center><span class="about_title"><img src="assets/team.png" height="100px"/></span></center><br>
+      <div class="container">
+      
+      <div class="col-xs-3">
+        <div class="card1">
+          <img src="/assets/cindy.jpg" class="img-responsive">
+          <div class="body-card1">
+            <h4>
+            CINDY CHUA
+            </h4>
+            <p>
+            Cindy likes to eat rice and chicken.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="card1">
+          <img src="/assets/enzo.jpg" class="img-responsive">
+          <div class="body-card1">
+            <h4>
+            ENZO BAUTISTA
+            </h4>
+            <p>
+            Enzo likes to eat rice and chicken.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="card1">
+          <img src="/assets/jakey.jpg" class="img-responsive">
+          <div class="body-card1">
+            <h4>
+            JAKEY FAUSTO
+            </h4>
+            <p>
+            Jakey likes to eat rice and chicken.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3">
+        <div class="card1">
+          <img src="/assets/vaughn.jpg" class="img-responsive">
+          <div class="body-card1">
+            <h4>
+            VAUGHN VILLARICO
+            </h4>
+            <p>
+            Vaughn likes to eat rice and chicken.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!--end hero-->
+<a href="#0" class="cd-top">Top</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/modernizr.js"></script> <!-- Modernizr -->
+<script src="assets/jquery.easing.min.js"></script>
+<script src="assets/wodry.min.js"></script>
+<script src="assets/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="assets/main.js"></script>

@@ -1,0 +1,10 @@
+<section id="belowNav">
+  <div class="container">
+    <h1>Create new position</h1>
+    <%=simple_form_for(@position) do |f| %>
+    <%= f.input :name%>
+    <hr>
+    <%= f.submit :save %>
+    <% end %>
+  </div>
+</section>

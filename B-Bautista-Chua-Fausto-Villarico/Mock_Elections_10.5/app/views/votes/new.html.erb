@@ -1,0 +1,14 @@
+<section id="belowNav" class="u_log">
+  <div class="container marg-cont">
+  <div class="col-md-4"></div>
+    <div class="card col-md-4 log_form">
+      <h1>Voting Form</h1>
+    <%=simple_form_for([@candidate, @vote]) do |f| %>
+
+    <%= f.input :comments%>
+    <hr>
+    <%= f.submit :save %>
+    <% end %>
+    </div>
+  </div>
+</section>
