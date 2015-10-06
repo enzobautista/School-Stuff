@@ -45,3 +45,16 @@ Law and Ethics Notes
 		-Elements to consider
 			-Intrusion into a private place, conversation, or matter
 			-In a manner highly offensive to a reasonable person
+	-Conversations
+		-Where: 
+			-Workplace: Medium expectation of privacy
+			-Street: Low expectation of privacy
+			-Restaurant: Low expectation of privacy
+			-Campus: Medium expectation of privacy
+	-Photography
+		-Where: 
+			-Workplace: High expectation of privacy
+			-Street: Low expectation of privacy
+			-Restaurant: Low expectation of privacy
+			-Campus: Medium expectation of privacy
+	
