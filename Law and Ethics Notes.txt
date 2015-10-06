@@ -1,0 +1,34 @@
+Law and Ethics Notes
+-Privacy Rights
+	-Person: identity, relations, conversations
+	-Case2: Can an arresting officer, without a search warrant, access the data on your mobile phone and use any evidence found to further incriminate you?
+		-Riley vs California case, yes
+			-however the decision was reversed by the Supreme Court
+			-police officer can search for:
+				-things that may harm the police officer
+				-evidence about to be destroyed
+			-Riley was driving caught in a traffic violation
+				-possession of firearms
+				-personal search
+				-searching smartphone data
+				-incriminating evidence of a past gang shooting
+				-fifteen years behind bars (sentence)
+				-Riley's lawyers then moved to suppress
+			-lower courts denied motion to suppress
+			-some said a warrant was needed, some said it wasn't
+			-Chief Justice Roberts stated that the smartphone contains many sensitive data about a person's personal life
+				-declared unconstitutional
+				-Riley decision was eventually reversed
+	-Case3: Can the Philippine government legally collect data real time
+		-No, the Phil gov cannot collect real time...unconstitutional
+		-Disini vs Secretary of Justice
+			-The use of online plagiarized material of Senator Tito Sotto
+			-Anti-Cybercrime Law of 2012 was signed by the President
+			-Senator Tito Sotto warned his critics that they can be penalized once the act was signed into law
+			-Section 12 of the Cybercrime law enables authorities to "collect or record traffic data in real time" even without a serched warrent
+			-Definition of traffic data
+				-computer data (ex. route, time, date, size, duration)
+			-According to the Court, section 12 suffers a deficient definition of traffic data
+		-Definition of traffic data must be specific
+		-There must be a limit unto which the government can collect data without a search warrant
+		-Section 2 of the Bill of Rights	
