@@ -57,4 +57,3 @@ Law and Ethics Notes
 			-Street: Low expectation of privacy
 			-Restaurant: Low expectation of privacy
 			-Campus: Medium expectation of privacy
-	
