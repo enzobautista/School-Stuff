@@ -1,2 +1,2 @@
 # School-Stuff
-A repository for stockpiling school-related files
+A repository for school-related files
