@@ -1,3 +1,49 @@
+Computer Architecture
+Burst
+	-Voltage is strong enough for the CPU to perform operations
+Cycle
+Overclocking
+	-ex. 1.2 GHZ to 1.4GHZ
+	-reconfiguring the machine to run faster than the recommended clock cycles
+Main Memory 
+	-Not a monolithic
+	-divided into separated cells where data resides in
+	-ex. Instruction 5x3 it has to locate the 5, 3, and the instruction (instruction, data  in locations)
+	-CPU references main memory to get the data and instructions (kuha, get, fetch referencing)
+		-Copies are made 
+		-updating algorithms  process of updating the original one due to a change
+	-Each location has a name addresses
+		   001    002   003    004    005
+	-80-20 rule or 90-10 rules
+		-locality of reference
+			-two types of locality
+				-Temporal Locality
+					-Recently accessed items are likely to be accessed in the near future (pinakarecent??)
+				-Spatial Locality
+					-Items whose addresses (or location) are near one another tend to be referenced close together in time
+Benchmarks
+	-run them and find out if good or bad and how good and how bad
+	-4 types
+		-Synthetic benchmark
+			-Fake programs trying to match behavior of real applications
+			-ex. Program to create load of 100 withdrawals instead of getting 100 people to withdraw
+			-Can configure systems to work well with that benchmark (pwedeng lokohin)
+CPU Organization
+300 MUL (312) (444) 
+312 is implicit operand
+312<-(4)
+444<-(6)
+4 is an explicit operand
+FDOES
+F-Fetching the Instruction (know address of instruction first)
+D-Decode (CPU will now understand the meaning of the instruction)
+O-Operand Fetch
+E-Execute
+S-
+CU: Control unit “issues control signals”, either MEM Read or MEM right
+MAR
+MDR->IR
+ID
 Assembly and Machine Language
   Hexadecimal
   0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F

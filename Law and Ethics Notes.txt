@@ -1,4 +1,166 @@
-Law and Ethics Notes
+LAW AND ETHICS
+-Report next week (individual)
+	-Case (AA BB C)
+-Ungraded quiz last session 
+	-instinct
+	-social duty
+	-human nature
+	-Established norm
+-Habeas Corpus
+	-Producing the body
+-Rights (Natural Inclinations)
+	-Right to Life
+	-Freedom of Expression
+		-No prior restraint
+	-Right to Property
+	-Meaning, Ultimate end (spiritual meaning, transcendence)
+System of Justice
+	-Tiered
+AA
+	-ASK
+	-Answer
+BB
+	-Background/Facts
+	-Basis (legal principles)
+C
+	-Critique
+		-Do you agree?
+		-If not why?
+Prior Restraint
+	-Distraction “ex. AFP drowns out protest rally with ‘La Bamba’” 
+	-Occupy Egypt …
+Right to access to information
+	-Freedom of information bill that has been languishing in congress
+Right to privacy
+	-controversies on spying etc.
+Human Rights
+Case assignments
+-Enzo: Fiction articles spring vs penthouse magazine 1983 (fiction article) 
+-One page outline
+Presentations
+-RAM: NY Times vs Sullivan
+	-Answer: No, walang malicious intent
+	-Background: full page advertisement of Martin Luther King’s supporters
+		-Sullivan, public safety person
+		-During that time maraming civil rights movements
+		-3rd par: in Montgomery Alabama, …, their leaders were expelled from school roughly
+		-6th par: Again and again Southerners answer using violence
+		-Sullivan filed a libel suit against New York Times in Alabama Court
+			-rewarded with 500,000 dollars worth of damage
+			-New York Times took down the advertisement due to the request of a Governor
+			-We did that since we didn’t want anything published in the Times to be representative of what the state of Alabama thinks
+		-New York Times sent an appeal
+		-US Supreme Court
+			-500,000 dollars was trashed due to:
+	-Basis:
+		-Sullivan did not have enough proof
+		-Already shows that there was no direct malicious act against him
+		-Lost his claim for damages
+		-Furthermore, US government said, “this was a way to repress one’s freedom”
+		-Public discussion and critique is a way for the government to improve itself
+-JEN: Pat Tornillo vs The Miami Herald
+	-against first amendment guarantee to free press
+	-Background
+		-Miami Herald criticized Pat Tornillo
+	-Publishing=Speech
+	-Tornillo
+		-Miami Herald to print his reply
+	-Florida Circuit Court
+		-Right to reply statute as unconstitutional
+	-Florida Supreme Court
+		-Reversed the judgement
+		-right to reply did not violate constitutional guarantees
+	-Supreme Court of the United States
+		-reversed Florida Supreme Court’s judgement
+		-Florida statute fails to clear the barrier of the First Amendment
+	-Basis
+		-right to reply statute
+			-provides for a reader to reply to something about a person
+			-Failure to comply with the statute constitutes a first-degree misdemeanor
+		-First Amendment
+			-right to reply contradicts this
+			-press has the responsibility to give out information
+	*** “Editor’s Judgement”
+		-Critique
+			-Agrees
+-CINDY: 
+	-A: Yes they are forcing the organizers to include a group that is expressing a message that the organizers do not wish to convey
+		-First Amendment: “a speaker has the autonomy to choose the content of his own message”
+	-Background: GLIB was denied by the council but approved by court
+		-in 1993 they were denied so they sued the council
+	-Basis: 
+		-First Amendment
+		-State and Federal Constitutions…
+	-Critique:
+		-Public accommodation
+		-private organizers have their own theme/message in mind
+		-choose whether or not to include the type of message the GLIB is trying to convey
+	-Agree? 
+		-Yes the Council’s argument was valid and they had the right to not include anyone or any group
+-JERIMAE: Dendrite vs Doe
+	-No. The court did not allow Dendrite to subpoena Yahoo! Inc. …
+	-Background:
+		-There were no stipulations in which identities of anonymous users online can be revealed
+	-Basis:
+		-First Amendment Right
+		-Yahoo terms and conditions
+Authentic Human Rights VS Spurious …
+Authentic
+1.	Inherent in humanity
+2.	Are tied to those goods…
+3.	Inalienable, cannot be removed from the human person
+4.	For the integral good of the human person
+5.	At the service of the dignity of the person who possesses the right
+6.	Demandable Forbearances against the rest of humanity. Hence protection is due to the holder of rights—the human person
+7.	Obligation to give it
+8.	Edifies and Dignifies both the holder of the right and the person who accords him the right
+9.	An Authentic human right serves the good of the human community
+Spurious Liberties
+1.	Created to rationalize certain acts contrary to human nature
+2.	Destroy the human person
+3.	Not demandable
+4.	Hence there is no injustice in refusing to acknowledge them
+5.	Destroy and degrade both the receiver and giver
+6.	Harms the community
+Hence
+1.	Civil authority can only acknowledge and affirm inherent rights as they are, by nature, already there
+2.	Are alien to human nature
+Questions
+-In USA there is a chimpanzee named tommy
+	-hobbies watching cartoons
+	-somebody filed a case
+	-tommy is entitled to be freed
+	-does a chimpanzee have the same rights as a person
+		-No, no legal duties
+ Ima Ocon, Hostile employee remarks via email - Intel Corp. v Hamidi
+-Intel dropped charges of nuisance and trespass to chattel against Hamidi
+-Hamidi had sent emails to thousands of Intel employees several times
+-Former engineer at Intel who was fired for not going back to work after medical leave
+-sent six waves of emails to up to 35,000 employees
+-Legal Basis
+	-trespass to chattel
+	-Property in question: Intel’s computer system
+	-Definition: Committing any act of direct physical interference to a chattel possessed by another
+	-Hamidi can be accused of intermeddling
+	-No damage to the system, but Hamidi disrupted the company
+	-Electronic signal is sufficiently tangible to support a trespass cause of action
+	-An injunction was released for Hamidi to stop sending the emails
+	-Hamidi appealed
+		-The Supreme Court of California reversed the decision
+	-Emails were free speech protected by the First Ammendment
+Matt Maguyon , Offensive online communication - Singhal v Union of India (March 2015)
+-Shaheen Dhada who posted something on FB and her friend Renu/Srinivasan who “liked” the post/comment
+LIBEL
+1.)	Imputation
+2.)	Dishonor
+3.)	Identifiable
+4.)	Publicity
+5.)	^^^^^^^^^^Malice
+Social moral duty negates … strong writing/expression is justified
+Opinion does not excuse by itself from libelous opinion
+Context of when the expressions were used
+Midterms exams on oct 20
+
 -Privacy Rights
 	-Person: identity, relations, conversations
 	-Case2: Can an arresting officer, without a search warrant, access the data on your mobile phone and use any evidence found to further incriminate you?
