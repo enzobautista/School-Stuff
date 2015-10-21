@@ -97,3 +97,20 @@ CS 150: Part 2-D: Survey of Processor Architecture
       -Instruction set
       -Materials used for the die
     -end result: enhance speed of the CPU and the system in general
+  -The System Bus ->external clock frequency
+    -transferring 1s and 0s to components outside the cpu->data is transferred across the motherboard
+    -if cpu is brain this is the nervous system outside the cpu
+    -conduit for moving data between the processor and other system components
+  *two types of buses: inside cpu and outside cpu
+  *cpu advancement is faster than the improvement of everything else 
+  -The Split Clock Implementation
+    -internal clock frequency
+      -speed of data processing inside the cpu
+      -system clock
+      -usually faster
+      -ex 1.6 Hhz->rate of processing
+    -external clock frequency
+      -speed of data transfer to and from the cpu via the system bus
+      -system bus
+      -ex.800 Mhz->rate data transfers
+  *800Mhz *X=1.6 Ghz; X is the multiplier
