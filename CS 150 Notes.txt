@@ -14,3 +14,40 @@ Assembly and Machine Language
     -ADD: 8 bits
   Operands
     -12 bits, 12 bits
+FDOES
+  -F: MAR, MDR, IR, PC
+  -D: ID
+  -O: MAR, MDR, General Purpose Registers
+  -E: ALU, Z
+  -S: MAR, MDR 
+FDOES
+ FDOES
+  FDOES
+   FDOES
+  -ODF-> Problem since F and O happening at the same time at the same clock cycle
+    -Both need MAR
+    -In one clock cycle only one read can be done
+    -Structural Hazard
+      -Restructuring
+    -Add another MAR and MDR
+  -FE conflict 
+    -Add another ALU
+CS 150: Part 2-D: Survey of Processor Architecture
+  Review:
+    -FDOES->FDES
+    -Redundancy can solve structural hazards
+    -But sometimes redundancy is not enough
+    -Our CPUs are finite machines
+  ----------------------------------------------
+  -Microprocessors in the market
+    -what's the difference?
+    -many options: amd, intel
+  -Areas of development
+    -technologies which can be improved in CPU design:
+      -System bus speed
+      -Internal and external clock frequency
+      -Casing
+      -Cooling system
+      -Instruction set
+      -Materials used for the die
+    -end result: enhance speed of the CPU and the system in general
