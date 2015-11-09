@@ -1,4 +1,4 @@
-LAW AND ETHICS
+LAW AND ETHICS 
 -Report next week (individual)
 	-Case (AA BB C)
 -Ungraded quiz last session 
@@ -224,3 +224,40 @@ Midterms exams on oct 20
 		-Google added it to streetview
 		-Invasion of privacy: "liability attaches only when the intrusion is substansial and would be highly offensive to 'the ordinary person'"
 		-Trespass-"an unprivileged, intentional intrusion upon land in possession of another"
+Digital Law and Ethics
+Cyberporn and Censorship: Reno v ACLU
+AA: Does statutory provisions enacting to protect minors, abridge the freedom of speech->Yes
+Background: 
+-Constitutionality of two provisions of CDA of 1996
+-SC wants to protect minors while keeping first Amendment
+-CDA: Communications Decency Act
+	-To prevent minors from receiving sexually explicit material over the internet
+-Sexually Explicit Material
+	-Pictures, text, chat, etc.
+	-May be accessed deliberately or unintentionally
+-Precedent:
+	-Miller V California->Mailed unsolicited material
+	-FCC v Pacifica Foundation -> radio broadcast, “Filthy Words”
+		-risk that listeners would hear the monologue by accident
+-Critique: CDA is unconstitutional
+-If it is censored to children, also adults would be affected
+	-“chilling effect” on expression of material which adults can readily access anytime
+
+Lecture
+-Safe Harbor Protocol: is suspended since NSA intercepts personal data
+Copyright
+Natural element->dogs are dogs
+	-ex. Dinosaur stuffed toy cannot be protected since it is common
+	-Protect the author/ creator
+Moral Rights
+	-Attribution
+-Alteration
+Economic Rights
+	-Royalties
+Fair Use
+	-Ask permission
+	-Make derivative works
+	-supposing one did not get permission
+	IS THERE TRANSFORMATIVE VALUE
+	
+
