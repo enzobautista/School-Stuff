@@ -304,3 +304,9 @@ Copyright
 	-2 PART TEST:
 		-Extrinsic Test focused on articulable similarities between plot, themes, dialogue, mood, setting, pace, charaacters, and sequence of events
 		-Intrinsic Test not considered in making a summary judgement
+	4 Factors in measuring Fair use
+		-Transformative Factor: The purpose and character of your use
+			-for profit or for education; profit does not necessarily mean infringement
+		-Nature of Copyrighted Work: Published and copyrighted
+		-Amount and Substantiality of the Portion Taken
+		-Effect of the Use Upon Potential Market
