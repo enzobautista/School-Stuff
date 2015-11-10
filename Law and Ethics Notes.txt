@@ -285,4 +285,7 @@ Copyright
 		-facts are not copyrightable
 		-compilation of facts may be copyrightable
 			-Prerequisites:
-				-
+				-Transformative Value
+					-Arrangement
+					-Photos
+					-Pages
