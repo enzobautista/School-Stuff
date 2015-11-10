@@ -280,4 +280,9 @@ Copyright
 	-Facts cannot be copyrighted but comilations of facts can be
 		-not original nor created but discovered
 		-part of public domain available to everyone
-	-
+	-Lecture:
+		-In phone directory-->facts
+		-facts are not copyrightable
+		-compilation of facts may be copyrightable
+			-Prerequisites:
+				-
