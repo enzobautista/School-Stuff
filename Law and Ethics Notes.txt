@@ -224,7 +224,7 @@ Midterms exams on oct 20
 		-Google added it to streetview
 		-Invasion of privacy: "liability attaches only when the intrusion is substansial and would be highly offensive to 'the ordinary person'"
 		-Trespass-"an unprivileged, intentional intrusion upon land in possession of another"
-Digital Law and Ethics
+---------------------------------------Digital Law and Ethics-----------------------------------------
 Cyberporn and Censorship: Reno v ACLU
 AA: Does statutory provisions enacting to protect minors, abridge the freedom of speech->Yes
 Background: 
@@ -259,5 +259,17 @@ Fair Use
 	-Make derivative works
 	-supposing one did not get permission
 	IS THERE TRANSFORMATIVE VALUE
-	
+Copyright 
+	-Protection
+		-of the author's work
+	-Progress
+		- in other disciplines
+-Not copyrightable
+	-Ideas are not copyrightable, unless put into something tangible 
+	-procedure
+	-concept
+	-discovery 
+	-facts
+	-news
+	-system of operation
 
