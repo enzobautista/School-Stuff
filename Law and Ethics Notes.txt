@@ -224,7 +224,7 @@ Midterms exams on oct 20
 		-Google added it to streetview
 		-Invasion of privacy: "liability attaches only when the intrusion is substansial and would be highly offensive to 'the ordinary person'"
 		-Trespass-"an unprivileged, intentional intrusion upon land in possession of another"
----------------------------------------Digital Law and Ethics-----------------------------------------
+--------------PART 2---------------------------------------Digital Law and Ethics-----------------------------------------
 Cyberporn and Censorship: Reno v ACLU
 AA: Does statutory provisions enacting to protect minors, abridge the freedom of speech->Yes
 Background: 
@@ -336,3 +336,18 @@ Copyright
 	-2 Live Crew did not copy more than what was necessary
 	-cases on parodies should be done on a case per case basis
 	-2 Live Crew did not infringe-> a parody needs to take the "heart" to properly reference -> since 2 Live Crew copied the bass riff, which was the "heart" of the song
+-Bright tunes Music v Harrisongs Music
+	-Was plagiarisim committed by George Harrison in his song, "My Sweet Lord"?
+	-Judge decided that there was plagiarism committed
+	-Similar melodies
+		-sol-mi-re
+		-sol-la-do-la-do
+	-Even George Harrison admits to the similarities in the song, though testifies that he did not consciouslu commit the plagiarisim
+-Dr. Seuss v Penguin Book
+	-Parody "the Cat Not in the Hat" by Dr. Juice
+	-Rhyming summary of highlights from the OJ Simpsom double murder trial
+	-Alleged that the "Cat Not in the Hat" Misappropriated substantial protected elements of its copyrighted works
+	-Prove copyright infringement
+		-There is copying
+		-An audience of reasonable persons see substantial evidence of copying
+	-Congress decided not to award copyright protection to the design element of letters
