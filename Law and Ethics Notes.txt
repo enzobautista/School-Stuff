@@ -319,3 +319,19 @@ Copyright
 		-copying of the protected elements of the work by the defendant
 	-McDonald's admitted to the similarity of the idea->extrinsic so down to intrinsic
 	-elements of expression that necessarily follow from the idea receive no copyright protection
+-Estate of Martin Luther King v CBS
+	-If someone delivers a speech n public, can it be legally used/reproduced by other parties/entities?
+	-General publication v Limited Publication
+		-General: giving it to everyone, with the power to change it
+	-Public domain: for everyone to make use
+	-Text was not submitted beforehand for copyright
+	-MLK registered and copyrighted the speech 
+	-CBS used it in a documentary without paying fees to the Estate
+	-MLK's Estate sues CBS for refusing to pay
+	-Court rulings state that King's Estate does hold copyright over the speech until 70 years after registration
+-2 Live Crew v Acuff-Rose
+	-Roy Orbison made the song Pretty Woman
+	-2 Live Crew made a parody and sent a letter
+	-Acuff-Rose declined the letter but 2 Live Crew released the album anyway
+	-2 Live Crew did not copy more than what was necessary
+	-cases on parodies should be done on a case per case basis
