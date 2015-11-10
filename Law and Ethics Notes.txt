@@ -304,7 +304,7 @@ Copyright
 	-2 PART TEST:
 		-Extrinsic Test focused on articulable similarities between plot, themes, dialogue, mood, setting, pace, charaacters, and sequence of events
 		-Intrinsic Test not considered in making a summary judgement
-	4 Factors in measuring Fair use
+	4 Factors in measuring Fair use (IMPORTANT)
 		-Transformative Factor: The purpose and character of your use
 			-for profit or for education; profit does not necessarily mean infringement
 		-Nature of Copyrighted Work: Published and copyrighted
@@ -343,6 +343,7 @@ Copyright
 		-sol-mi-re
 		-sol-la-do-la-do
 	-Even George Harrison admits to the similarities in the song, though testifies that he did not consciouslu commit the plagiarisim
+	-***Maam says grey area sa music
 -Dr. Seuss v Penguin Book
 	-Parody "the Cat Not in the Hat" by Dr. Juice
 	-Rhyming summary of highlights from the OJ Simpsom double murder trial
@@ -351,3 +352,10 @@ Copyright
 		-There is copying
 		-An audience of reasonable persons see substantial evidence of copying
 	-Congress decided not to award copyright protection to the design element of letters
+	-***Parody is only counted when it satirizes the copied work
+	-***Like the article against the LT case on Juan Ponce Enrile (but in the test the answer was not libel)
+-Recording Industry Association of America v Diamond Media Systems
+	-Rio was not a Digital Audio Recording Device
+	-Assumption of RIA: Rio was a digital audio recording device (DARD), a machine designed for the primary purpose of making a digital audio recording device
+	-If RIAA won, rio won't be manufactured-->complete halt in MP3 players
+	-Reproduction is permitted so long as the copy is made for the consumer's personal, noncommercial use and is made from a legally obtained sound recording
