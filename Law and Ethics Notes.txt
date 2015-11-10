@@ -272,4 +272,9 @@ Copyright
 	-facts
 	-news
 	-system of operation
--
+-Feist v Rural
+	-Is information found in a phone directory copyrightable?
+	-No (?)
+	-Rural Telephone Service Company earns revenue by selling yellow pages advertisements
+	-Feist Publications Inc. is a publishing company that distributes free phone directories
+	
