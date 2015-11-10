@@ -310,3 +310,12 @@ Copyright
 		-Nature of Copyrighted Work: Published and copyrighted
 		-Amount and Substantiality of the Portion Taken
 		-Effect of the Use Upon Potential Market
+-Pasillas vs McDonalds
+	-Pasillas alleged that McDonald's copied a mask that he designed
+	-Pasillas registered a copyright in 1987(?)
+	-McDonald's "moved for summary judgement"
+	-to prove copyright infringement
+		-ownership of the allegedly infringed work and
+		-copying of the protected elements of the work by the defendant
+	-McDonald's admitted to the similarity of the idea->extrinsic so down to intrinsic
+	-elements of expression that necessarily follow from the idea receive no copyright protection
