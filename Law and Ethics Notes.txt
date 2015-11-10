@@ -359,3 +359,4 @@ Copyright
 	-Assumption of RIA: Rio was a digital audio recording device (DARD), a machine designed for the primary purpose of making a digital audio recording device
 	-If RIAA won, rio won't be manufactured-->complete halt in MP3 players
 	-Reproduction is permitted so long as the copy is made for the consumer's personal, noncommercial use and is made from a legally obtained sound recording
+-Flame in palm analogy->Justice Holmes ->spirit of copyright is progress->More for creativity, progress, new works; rather than balance between protection and creativity
